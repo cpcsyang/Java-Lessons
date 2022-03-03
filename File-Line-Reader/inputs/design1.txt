@@ -1,0 +1,54 @@
+START_ROBOT: name=Frenzy, number=4911, trackwidth=30, wheelbase=30, style=holonomic
+NEWPATH: x=200, y=130, heading=0, slopeAngle=0, slopeMag=0, balls=3, title=8_ball_steal
+MOVETO: x=91, y=130, heading=0, slopeAngle=180.0, slopeMag=130.8, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+// from start to WoF to collect 2 balls
+COLLECT: duration=.0
+COLLECT: duration=.0
+// move from WOF outside of trench
+CHANGEDXDY: slopeAngle=0, slopeMag=26.4
+MOVETO: x                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     , slopeMag=26.4, vfinal=90, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+// to shoot position
+MOVETO: x=140, y=0, heading=-20, slopeAngle=270.0, slopeMag=159.3, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+TARGET: duration=.5
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+// move to first set of rendezvous balls
+CHANGEDXDY: slopeAngle=153.4, slopeMag=53.7
+MOVETO: x=100, y=20, heading=30, slopeAngle=153.4, slopeMag=53.7, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+COLLECT: duration=.0
+COLLECT: duration=.0
+CHANGEDXDY: slopeAngle=-71.6, slopeMag=19.0
+MOVETO: x=105, y=5, heading=30, slopeAngle=-71.6, slopeMag=19.0, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+COLLECT: duration=.0
+//move to second set of rendezvous balls
+CHANGEDXDY: slopeAngle=-30.0, slopeMag=239.8
+MOVETO: x=80, y=-70, heading=-60, slopeAngle=120.0, slopeMag=102.5, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+COLLECT: duration=.0
+COLLECT: duration=.0
+// move to shooting point
+CHANGEDXDY: slopeAngle=270.0, slopeMag=12.0
+MOVETO: x=80, y=-80, heading=0, slopeAngle=270.0, slopeMag=12.0, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+TARGET: duration=.5
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+CHANGEDXDY: slopeAngle=-68.2, slopeMag=64.6
+MOVETO: x=100, y=-130, heading=0, slopeAngle=-68.2, slopeMag=64.6, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+CHANGEDXDY: slopeAngle=180.0, slopeMag=85.1
+COLLECT: duration=.0
+COLLECT: duration=.0
+COLLECT: duration=.0
+MOVETO: x=20, y=-130, heading=0, slopeAngle=180.0, slopeMag=85.1, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+CHANGEDXDY: slopeAngle=0.0, slopeMag=85.1
+MOVETO: x=100, y=-130, heading=20, slopeAngle=0.0, slopeMag=85.1, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+TARGET: duration=.5
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1

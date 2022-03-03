@@ -1,0 +1,3 @@
+START_ROBOT: name=Frenzy, number=4911, trackwidth=30, wheelbase=30, style=holonomic
+START_PATH: x=0, y=0, heading=0, slopeAngle=0, slopeMag=0, balls=1, title=8_ball_steal
+MOVETO: x=30, y=30, heading=0, slopeAngle=0.0, slopeMag=0, vfinal=0, vMax=50, vMin=1, acc=50, dec=-50, collect=0, shoot=0

@@ -1,0 +1,137 @@
+START_ROBOT: name=Frenzy, number=4911, trackwidth=30, wheelbase=30, style=holonomic
+START_PATH: x=100, y=0, heading=0, pathAngle=90, pathMag=133.3, balls=1, title=5_ball_steal
+MOVETO: x=0, y=100, heading=0, pathAngle=180, pathMag=133.3, vfinal=100, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+MOVETO: x=-100, y=0, heading=0, pathAngle=270, pathMag=133.3, vfinal=100, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+MOVETO: x=0, y=-100, heading=0, pathAngle=360, pathMag=133.3, vfinal=100, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+MOVETO: x=100, y=0, heading=0, pathAngle=450, pathMag=133.3, vfinal=0, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+
+
+
+//ACROSS THE FIELD:
+START_ROBOT: name=Frenzy, number=4911, trackwidth=30, wheelbase=30, style=holonomic
+NEWPATH: x=200, y=130, heading=0, slopeAngle=0.0, slopeMag=0, balls=3, title=5_ball_steal
+// from start to WoF to collect 2 balls
+MOVETO: x=91, y=130, heading=0, slopeAngle=180, slopeMag=130.8, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+COLLECT: duration=.5
+COLLECT: duration=.5
+// move from WOF outside of trench
+CHANGEDXDY: slopeAngle=0, slopeMag=26.4
+MOVETO: x=113, y=130, heading=0, slopeAngle=0.0, slopeMag=0, vfinal=90, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+//MOVETO: x=150, y=0, heading=83, dx=0.0, dy=0, vfinal=120, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+MOVETO: x=100, y=-130, heading=15, slopeAngle=180, slopeMag=135.0, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+TARGET: duration=.5
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+MOVETO: x=100, y=-130, heading=0, slopeAngle=0.0, slopeMag=0.0, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+CHANGEDXDY: slopeAngle=0.0, slopeMag=85.1
+COLLECT: duration=.5
+COLLECT: duration=.5
+COLLECT: duration=.5
+MOVETO: x=20, y=-130, heading=90, slopeAngle=0.0, slopeMag=85.1, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+CHANGEDXDY: slopeAngle=-45, slopeMag=101.8
+MOVETO: x=80, y=-70, heading=150, slopeAngle=-45, slopeMag=101.8, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+COLLECT: duration=.5
+COLLECT: duration=.5
+
+MOVETO: x=80, y=-70, heading=90, dx=311.4, dy=-160.0, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+TARGET: duration=.5
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+//CHANGEDXDY: dx=311.4, dy=-160.0
+MOVETO: x=105, y=5, heading=60, dx=-80.0, dy=-41.6, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+COLLECT: duration=.5
+COLLECT: duration=.5
+CHANGEDXDY: dx=-6.2, dy=17.9
+MOVETO: x=100, y=20, heading=60, dx=-6.2, dy=17.9, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+COLLECT: duration=.5
+MOVETO: x=100, y=20, heading=120, dx=-6.2, dy=17.9, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+TARGET: duration=.5
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+
+START_ROBOT: name=Frenzy, number=4911, trackwidth=30, wheelbase=30, style=holonomic
+NEWPATH: x=100, y=0, heading=0, pathAngle=90, pathMag=133.3, balls=1, title=5_ball_steal
+MOVETO: x=0, y=100, heading=0, pathAngle=180, pathMag=133.3, vfinal=100, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+MOVETO: x=-100, y=0, heading=0, pathAngle=270, pathMag=133.3, vfinal=100, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+MOVETO: x=0, y=-100, heading=0, pathAngle=360, pathMag=133.3, vfinal=100, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+MOVETO: x=100, y=0, heading=0, pathAngle=450, pathMag=133.3, vfinal=0, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+
+START_ROBOT: name=Frenzy, number=4911, trackwidth=30, wheelbase=30, style=holonomic
+NEWPATH: x=100, y=0, heading=90, pathAngle=90, pathMag=133, balls=1, title=5_ball_steal
+MOVETO: x=0, y=100, heading=180, pathAngle=180, pathMag=133, vfinal=100, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+MOVETO: x=-100, y=0, heading=270, pathAngle=270, pathMag=133, vfinal=100, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+MOVETO: x=0, y=-100, heading=360, pathAngle=360, pathMag=133, vfinal=100, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+MOVETO: x=100, y=0, heading=450, pathAngle=450, pathMag=133, vfinal=0, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+
+START_ROBOT: name=Frenzy, number=4911, trackwidth=30, wheelbase=30, style=holonomic
+NEWPATH: x=-100, y=0, heading=0, pathAngle=0, pathMag=0, balls=1, title=5_ball_steal
+MOVETO: x=0, y=0, heading=0, pathAngle=0, pathMag=0, vfinal=25, vMax=25, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+MOVETO: x=100, y=0, heading=0, pathAngle=0, pathMag=0, vfinal=0, vMax=25, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+START_ROBOT: name=Frenzy, number=4911, trackwidth=30, wheelbase=30, style=holonomic
+NEWPATH: x=0, y=0, heading=0, pathAngle=0, pathMag=0, balls=1, title=5_ball_steal
+MOVETO: x=100, y=100, heading=45, pathAngle=45, pathMag=100, vfinal=0, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+CHANGEDXDY: pathAngle=0, pathMag=0
+MOVETO: x=-100, y=100, heading=180, pathAngle=180, pathMag=100, vfinal=0, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+CHANGEDXDY: pathAngle=0, pathMag=0
+MOVETO: x=-100, y=-100, heading=-90, pathAngle=-90, pathMag=100, vfinal=0, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+CHANGEDXDY: pathAngle=0, pathMag=0
+MOVETO: x=100, y=-100, heading=0, pathAngle=0, pathMag=100, vfinal=0, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+CHANGEDXDY: pathAngle=0, pathMag=0
+MOVETO: x=100, y=100, heading=90, pathAngle=90, pathMag=100, vfinal=0, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+CHANGEDXDY: pathAngle=0, pathMag=0
+MOVETO: x=0, y=0, heading=225, pathAngle=225, pathMag=100, vfinal=0, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+
+
+START_ROBOT: name=Frenzy, number=4911, trackwidth=30, wheelbase=30, style=holonomic
+NEWPATH: x=-320, y=-150, heading=0, pathAngle=-90, pathMag=1500, balls=3, title=5_ball_steal
+// from start to WoF to collect 2 balls
+MOVETO: x=320, y=150, heading=1080, pathAngle=-90, pathMag=1500, vfinal=0, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+
+
+
+
+MOVETO: x=200, y=0, heading=200, dx=0, dy=0, vfinal=0, vMax=100, vMin=1, acc=50, dec=-50, collect=0, shoot=0
+
+
+COLLECT: duration=.5
+COLLECT: duration=.5
+// move from WOF outside of trench
+CHANGEDXDY: pathAngle=0, pathMag=0
+MOVETO: x=113, y=130, heading=90, pathAngle=straight, pathMag=cheesy, vfinal=90, vMax=90, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+// to shoot position
+MOVETO: x=140, y=0, heading=110, dx=0.0, dy=-159.3, vfinal=0, vMax=90, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+TARGET: duration=.5
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+// move to first set of rendezvous balls
+CHANGEDXDY: dx=-48.0, dy=24.0
+MOVETO: x=100, y=20, heading=60, dx=-48.0, dy=24.0, vfinal=0, vMax=90, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+COLLECT: duration=.5
+COLLECT: duration=.5
+CHANGEDXDY: dx=12.0, dy=-12.0
+MOVETO: x=110, y=10, heading=60, dx=12.0, dy=-12.0, vfinal=0, vMax=90, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+COLLECT: duration=.5
+//move to second set of rendezvous balls
+CHANGEDXDY: dx=207.6, dy=-120.0
+MOVETO: x=80, y=-70, heading=150, dx=-51.2, dy=88.8, vfinal=0, vMax=90, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+COLLECT: duration=.5
+COLLECT: duration=.5
+// move to shooting point
+CHANGEDXDY: dx=0.0, dy=-12.0
+MOVETO: x=80, y=-80, heading=90, dx=0.0, dy=-12.0, vfinal=0, vMax=90, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+TARGET: duration=.5
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1

@@ -1,0 +1,71 @@
+// field border
+fieldline:  0, 162, 287, 162, ALL, BLACK, 5
+fieldline:315,   0, 315,  92, ALL, BLACK, 5
+fieldline:-315, 92, -287, 162, ALL, BLACK, 5
+// start field
+fieldline:-195, 162, -195, -162, Y, BLACK, 5
+// shooter safety
+fieldline:-315, 44, -285, 68, XY, RED, 5
+fieldline:-315, 92, -285, 68, XY, RED, 5
+// loader safety
+fieldline:-315, -32, -285, -62, XY, BLUE, 5
+fieldline:-315, -92, -285, -62, XY, BLUE, 5
+// trench
+fieldline:-108, 162, -108, 108, ALL, BLACK, 5
+fieldline:-108, 106, 108, 106, X, BLACK, 5
+// wheel of fortune
+fieldline:64, 162, 64, 108, XY, BLACK, 5
+fieldline:34, 162, 34, 108, XY, BLACK, 5
+// rendevous post
+fieldline:-116, 44, -104, 22, XY, BLACK, 5
+fieldline:-86, 32, -104, 22, XY, BLACK, 5
+fieldline:-86, 32, -98, 54, XY, BLACK, 5
+fieldline:-116, 44, -98, 54, XY, BLACK, 5
+// vertical grid
+fieldline:0, 0, 0, 170, X, GRAY, 3
+fieldline:20, 0, 20, 170, ALL, GRAY, 1
+fieldline:40, 0, 40, 170, ALL, GRAY, 1
+fieldline:60, 0, 60, 170, ALL, GRAY, 1
+fieldline:80, 0, 80, 170, ALL, GRAY, 1
+fieldline:100, 0, 100, 170, ALL, GRAY, 3
+fieldline:120, 0, 120, 170, ALL, GRAY, 1
+fieldline:140, 0, 140, 170, ALL, GRAY, 1
+fieldline:160, 0, 160, 170, ALL, GRAY, 1
+fieldline:180, 0, 180, 170, ALL, GRAY, 1
+fieldline:200, 0, 200, 170, ALL, GRAY, 3
+fieldline:220, 0, 220, 170, ALL, GRAY, 1
+fieldline:240, 0, 240, 170, ALL, GRAY, 1
+fieldline:260, 0, 260, 170, ALL, GRAY, 1
+fieldline:280, 0, 280, 170, ALL, GRAY, 1
+fieldline:300, 0, 300, 170, ALL, GRAY, 3
+// horizontal grid
+fieldline:0, 0, 322, 0, Y, GRAY, 3
+fieldline:0, 20, 322, 20, ALL, GRAY, 1
+fieldline:0, 40, 322, 40, ALL, GRAY, 1
+fieldline:0, 60, 322, 60, ALL, GRAY, 1
+fieldline:0, 80, 322, 80, ALL, GRAY, 1
+fieldline:0, 100, 322, 100, ALL, GRAY, 3
+fieldline:0, 120, 322, 120, ALL, GRAY, 1
+fieldline:0, 140, 322, 140, ALL, GRAY, 1
+fieldline:0, 160, 322, 160, ALL, GRAY, 1
+// Balls
+fieldcircle:   0, 132, 8, NONE, BLACK, 1
+fieldcircle: -36, 132, 8, NONE, BLACK, 1
+fieldcircle: -72, 132, 8, NONE, BLACK, 1
+fieldcircle:  68, 126, 8, NONE, BLACK, 1
+fieldcircle:  68, 144, 8, NONE, BLACK, 1
+fieldcircle: -65,  48, 8, NONE, BLACK, 1
+fieldcircle: -80,  42, 8, NONE, BLACK, 1
+fieldcircle: -87,  18, 8, NONE, BLACK, 1
+fieldcircle: -80,   2, 8, NONE, BLACK, 1
+fieldcircle: -75, -13, 8, NONE, BLACK, 1
+fieldcircle:   0, -132, 8, NONE, BLACK, 1
+fieldcircle:  36, -132, 8, NONE, BLACK, 1
+fieldcircle:  72, -132, 8, NONE, BLACK, 1
+fieldcircle:  -68, -126, 8, NONE, BLACK, 1
+fieldcircle:  -68, -144, 8, NONE, BLACK, 1
+fieldcircle:  65, -48, 8, NONE, BLACK, 1
+fieldcircle:  80, -42, 8, NONE, BLACK, 1
+fieldcircle:  87, -18, 8, NONE, BLACK, 1
+fieldcircle:  80,  -2, 8, NONE, BLACK, 1
+fieldcircle:  75,  13, 8, NONE, BLACK, 1

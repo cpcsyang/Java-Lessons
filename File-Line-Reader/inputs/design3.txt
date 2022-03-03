@@ -1,0 +1,46 @@
+START_ROBOT: name=Frenzy, number=4911, trackwidth=30, wheelbase=30, style=holonomic
+NEWPATH: x=200, y=130, heading=90, dx=0.0, dy=0, balls=3, title=5_ball_steal
+// from start to WoF to collect 2 balls
+MOVETO: x=91, y=130, heading=90, dx=-130.8, dy=0, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+COLLECT: duration=.5
+COLLECT: duration=.5
+// move from WOF outside of trench
+CHANGEDXDY: dx=26.4, dy=0
+MOVETO: x=113, y=130, heading=90, dx=90.0, dy=0, vfinal=90, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+//MOVETO: x=150, y=0, heading=83, dx=0.0, dy=0, vfinal=120, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+MOVETO: x=100, y=-130, heading=75, dx=-135.0, dy=0.0, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+TARGET: duration=.5
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+MOVETO: x=100, y=-130, heading=90, dx=0.0, dy=0.0, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+CHANGEDXDY: dx=-85.1, dy=0.0
+COLLECT: duration=.5
+COLLECT: duration=.5
+COLLECT: duration=.5
+MOVETO: x=20, y=-130, heading=90, dx=-85.1, dy=0.0, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+CHANGEDXDY: dx=72.0, dy=72.0
+MOVETO: x=80, y=-70, heading=150, dx=72.0, dy=72.0, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+COLLECT: duration=.5
+COLLECT: duration=.5
+MOVETO: x=80, y=-70, heading=90, dx=311.4, dy=-160.0, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+TARGET: duration=.5
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
+//CHANGEDXDY: dx=311.4, dy=-160.0
+MOVETO: x=105, y=5, heading=60, dx=-80.0, dy=-41.6, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+COLLECT: duration=.5
+COLLECT: duration=.5
+CHANGEDXDY: dx=-6.2, dy=17.9
+MOVETO: x=100, y=20, heading=60, dx=-6.2, dy=17.9, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+COLLECT: duration=.5
+MOVETO: x=100, y=20, heading=120, dx=-6.2, dy=17.9, vfinal=0, vMax=120, vMin=1, acc=120, dec=-120, collect=0, shoot=0
+TARGET: duration=.5
+SHOOT: duration=.1
+SHOOT: duration=.1
+SHOOT: duration=.1
